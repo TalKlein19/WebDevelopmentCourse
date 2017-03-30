@@ -1,0 +1,99 @@
+body
+{
+    direction: rtl;
+    background: url('../images/night-dark-blur-blurred.jpg') no-repeat center;
+    background-size: cover;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(28, 48, 42, 0.50);
+    -webkit-box-shadow:inset 0px 0px 30px 0 rgba(101, 181, 127, 0.15);
+    box-shadow:inset 0px 0px 30px 0 rgba(101, 181, 127, 0.15);
+    padding:5px;
+}
+h1
+{
+    text-align:center;
+    font-size:30pt;
+    margin:20px;
+    padding-top:20px;
+    color:#7ba09f;
+    text-shadow: 2px 2px 5px rgba(47, 90, 72, 0.80);
+}
+h2
+{
+    font-size:24px;
+    color:#7ba09f;
+    margin:5px;
+}
+.sectionDiv
+{
+    margin:20px;
+    display:inline-block;
+    width:500px;
+}
+.sectionDiv > ul
+{
+    margin-right:20px;
+}
+.sectionDiv li
+{
+    color:#a2cfbe;
+    margin:8px 0px;
+    list-style-type:circle;
+}
+#myImage
+{
+    background-image: url('../images/me.jpg');
+    background-repeat:no-repeat;
+    background-size:200px;
+    width:200px;
+    height:200px;
+    display:inline-block;
+    float:left;
+    margin:60px;
+    margin-bottom:30px;
+    -webkit-box-shadow: 0px 0px 20px 0 rgba(27, 48, 34, 0.85);
+    box-shadow: 0px 0px 20px 0 rgba(27, 48, 34, 0.85);
+}
+#facebook
+{
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/symbols.png');
+    display: inline-block;
+    position: relative;
+    left: -350px;
+    bottom: -30px;
+    margin: 10px;
+}
+#facebook:hover
+{
+    background-image: url('../images/symbolsH.png');
+}
+#facebook:active
+{
+    background-image: url('../images/symbolsA.png');
+
+}
+#gmail
+{
+    width: 40px;
+    height: 30px;
+    background-image: url('../images/symbols.png');
+    background-position-x:40px;
+    display: inline-block;
+    position: relative;
+    left: -230px;
+    bottom: -30px;
+    margin: 10px;
+}
+#gmail:hover
+{
+    background-image: url('../images/symbolsH.png');
+}
+#gmail:active
+{
+    background-image: url('../images/symbolsA.png');
+}
